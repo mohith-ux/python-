@@ -1,4 +1,4 @@
-name="mohith"
+name="coffin"
 b=name.upper()
 c=name.lower()
 d=name.capitalize()
@@ -15,7 +15,12 @@ s2="1123"
 s3="Coffin"
 s4="Coffin"
 s5="   "
-s6="The Animal"
+s6="'The Animal'"
+s7="hello world"
+s8="the is animal"
+s9="hello world"
+s10="  hello  "
+s11="123abc"
 print(str.isalpha())
 print(s1.isdigit())
 print(s2.isalnum())
@@ -23,3 +28,26 @@ print(s3.islower())
 print(s4.isupper())
 print(s5.isspace())
 print(s6.istitle())
+print(s7.index("world"))
+
+OUTPUT:-
+COFFIN
+coffin
+Coffin
+COFFIN
+True
+False
+True
+False
+False
+True
+True
+6
+he is animal
+3
+  hello
+00123abc
+print(s8.replace("the","he"))
+print(s9.count("l"))
+print(s10.rstrip())
+print(s11.zfill(8))
