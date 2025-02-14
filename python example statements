@@ -29,6 +29,10 @@ print(s4.isupper())
 print(s5.isspace())
 print(s6.istitle())
 print(s7.index("world"))
+print(s8.replace("the","he"))
+print(s9.count("l"))
+print(s10.rstrip())
+print(s11.zfill(8))
 
 OUTPUT:-
 COFFIN
@@ -45,9 +49,3 @@ True
 6
 he is animal
 3
-  hello
-00123abc
-print(s8.replace("the","he"))
-print(s9.count("l"))
-print(s10.rstrip())
-print(s11.zfill(8))
